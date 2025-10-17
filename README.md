@@ -28,3 +28,26 @@ It provides a simple way to add, view, categorize, and summarize expenses — ma
 ---
 
 ## 📂 Project Structure
+PersonalExpenseTracker/
+│
+├── main.py # Main entry point of the application
+├── expenses.db # SQLite database (if used)
+├── data.csv # Expense data file (if using CSV)
+├── modules/
+│ ├── add_expense.py # Logic to add new expenses
+│ ├── view_expenses.py # Display or filter expenses
+│ ├── summary.py # Generate summary and reports
+│ └── utils.py # Helper functions
+│
+├── requirements.txt # List of required dependencies
+└── README.md # Project documentation
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/<your-username>/PersonalExpenseTracker.git
+cd PersonalExpenseTracker
